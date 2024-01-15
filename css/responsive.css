@@ -1,0 +1,65 @@
+/* x-small devices */
+@media screen and (max-width: 575.98px){
+    .header-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .nav-logo a img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .nav-logo a h3{
+        font-size: 1.3rem;
+    }
+    .nav-list ul{
+        display: none;
+    }
+    nav .hamburg-icon{
+        display: inline;
+    }
+}
+
+/* small devices */
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .header-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .nav-logo a img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .nav-logo a h3{
+        font-size: 1.3rem;
+    }
+    .nav-list ul{
+        display: none;
+    }
+    nav .hamburg-icon{
+        display: inline;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .header-section{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    .nav-logo a img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .nav-logo a h3{
+        font-size: 1.3rem;
+    }
+    .nav-list ul{
+        display: none;
+    }
+    nav .hamburg-icon{
+        display: inline;
+    }
+}
