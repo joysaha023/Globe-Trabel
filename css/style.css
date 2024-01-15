@@ -103,3 +103,83 @@ nav .hamburg-icon{
     color: var(--heading-color);
     display: none;
 }
+
+/* Banner section start */
+.banner-section{
+    padding-left: 135px;
+    padding-right: 127px;
+    margin-top: 40px;
+}
+.banner-section-box{
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../assets/Images/group-13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-section-box h1{
+    color: var(--white-color);
+    text-align: center;
+    font-weight: 800;
+    padding-top: 106px;
+    margin-bottom: 24px;
+}
+
+.banner-section-box p{
+    max-width: 676px;
+    margin-inline: auto;
+    color: var(--white-color);
+    text-align: center;
+    font-weight: 400;
+}
+
+.find-box{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 106px;
+}
+
+input:focus, select:focus{
+    outline: none;
+}
+
+.where-go input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+.when-select .custom-select select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400;
+    padding: 0 15px;
+}
+.banner-btn a i{
+    margin-right: 8px;
+}
+.banner-btn a{
+    padding: 16px 34px 16px 34px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: var(--white-color);
+    text-align: center;
+    font-weight: 700;
+    transition: transform .3s;
+}
