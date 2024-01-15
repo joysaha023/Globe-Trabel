@@ -50,6 +50,7 @@
     .populer-section{
         padding: 0 20px;
         margin-top: 24px;
+        margin-bottom: 24px;
     }
     .populer-box{
         flex-direction: column;
@@ -72,6 +73,25 @@
     }
     .populer-image img{
         width: 100%;
+    }
+    .why-choose-section{
+        padding: 24px 20px;
+    }
+    .why-choose-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .why-choose-title p{
+        width: 309px;
+    }
+    .why-choose-card{
+        margin-top: 16px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .why-choose-single{
+        width: 335px;
     }
     
 }
@@ -128,6 +148,7 @@
     .populer-section{
         padding: 0 20px;
         margin-top: 24px;
+        margin-bottom: 24px;
     }
     .populer-box{
         flex-direction: column;
@@ -150,6 +171,25 @@
     }
     .populer-image img{
         width: 100%;
+    }
+    .why-choose-section{
+        padding: 24px 20px;
+    }
+    .why-choose-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .why-choose-title p{
+        width: 309px;
+    }
+    .why-choose-card{
+        margin-top: 16px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .why-choose-single{
+        width: 300px;
     }
 }
 
