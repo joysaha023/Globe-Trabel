@@ -327,3 +327,24 @@ input:focus, select:focus{
 .why-choose-xtra{
     display: block;
 }
+
+/* discount section start */
+.discount-section{
+    padding: 0 135px;
+}
+
+.discount-card-single{
+    background-image: url(../assets/Images/group-39.png);
+}
+
+.blur-single-box{
+    width: 579px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.logo-span{
+    margin-top: 52px;
+}
