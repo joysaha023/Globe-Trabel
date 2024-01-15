@@ -181,5 +181,58 @@ input:focus, select:focus{
     color: var(--white-color);
     text-align: center;
     font-weight: 700;
-    transition: transform .3s;
+    transition: margin-right .3s;
 }
+
+.banner-btn a:hover{
+    padding-right: 39px;
+    transform: scale(1.2);
+}
+
+/* populer section start */
+.populer-section{
+    padding: 0 135px;
+    margin-top: 100px;
+}
+
+.populer-box{
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+}
+
+.populer-content h2{
+    color: var(--heading-color);
+    font-weight: 800;
+}
+
+.populer-content p{
+    color: var(--body-text-color);
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+.populer-content .second-p{
+    color: #5A5A5D;
+}
+
+.populer-list-item{
+    padding-left: 18px;
+}
+
+.populer-list-item ul li{
+    color: var(--body-text-color);
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.populer-image{
+    transition: transform 1s;
+}
+.populer-image img:hover{
+    transform: scale(1.2);
+}
+
+.populer-btn{
+    padding-top: 32px;
+}
+

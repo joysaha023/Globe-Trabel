@@ -47,6 +47,33 @@
     .banner-btn a{
         padding: 16px 75px 16px 75px;
     }
+    .populer-section{
+        padding: 0 20px;
+        margin-top: 24px;
+    }
+    .populer-box{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .populer-content h2{
+        font-size: 1.2rem;
+    }
+    .populer-content p{
+        margin: 16px 0;
+    }
+    .populer-list-item ul li{
+        margin-bottom: 12px;
+    }
+    .populer-btn{
+        padding-top: 24px;
+    }
+    .populer-btn a{
+        padding: 14px 34px;
+    }
+    .populer-image img{
+        width: 100%;
+    }
+    
 }
 
 /* small devices */
@@ -97,6 +124,32 @@
     }
     .banner-btn a{
         padding: 16px 75px 16px 75px;
+    }
+    .populer-section{
+        padding: 0 20px;
+        margin-top: 24px;
+    }
+    .populer-box{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .populer-content h2{
+        font-size: 1.2rem;
+    }
+    .populer-content p{
+        margin: 16px 0;
+    }
+    .populer-list-item ul li{
+        margin-bottom: 12px;
+    }
+    .populer-btn{
+        padding-top: 24px;
+    }
+    .populer-btn a{
+        padding: 14px 34px;
+    }
+    .populer-image img{
+        width: 100%;
     }
 }
 
