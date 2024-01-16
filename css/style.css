@@ -464,3 +464,72 @@ input:focus, select:focus{
 .discount-btn:hover{
     transform: scale(1.2);
 }
+
+.deal-btn{
+    margin-top: 48px;
+    text-align: center;
+}
+
+/* video section start */
+.video-section{
+    padding: 100px 135px;
+    
+}
+
+.video-list ul li{
+    color: var(--heading-color);
+    font-weight: 700;
+}
+
+/* Blog section image */
+.blog-section{
+    padding: 0 135px;
+}
+.blog-section-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.blog-single-box{
+    width: 329px;
+    margin-top: 48px;
+    padding: 16px 15px 16px 15px;
+    border-radius: 5px;
+    background: var(--white-color);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.blog-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog-single-box h5{
+    color: var(--heading-color);
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.blog-single-box p{
+    color: var(--body-text-color);
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.blog-btn{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.blog-btn a:hover{
+    color: var(--primary-color);
+}
+
+/* Newsletter section start */
+.newslatter-section{
+
+}
+
+.newslatter-box{
+    
+}

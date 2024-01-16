@@ -124,6 +124,8 @@
     }
     .discount-card-single, .discount-card-second{
         padding: 187px 16px 16px 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
     .blur-single-box{
         width: 303px;
@@ -149,8 +151,40 @@
         width: 130px;
         margin-bottom: 24px;
     }
-    
+    .deal-btn{
+        margin-top: 25px;
+    }
+    .deal-btn a{
+        padding: 16px 40px;
+    }
+    .video-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .video-tag video{
+        width: 303px;
+    }
+    .blog-section{
+        padding: 0 20px;
+        
+    }
+    .blog-single-box{
+        margin-top: 16px;
+    }
+    .blog-section-bottom{
+        flex-direction: column;
+        gap: 16px;
+    }
 }
+
+
+
+
+
+
+
 
 /* small devices */
 @media screen and (min-width: 576px) and (max-width: 767.98px){
@@ -302,6 +336,29 @@
     .discount-btn{
         width: 130px;
         margin-bottom: 24px;
+    }
+    .deal-btn a{
+        padding: 16px 40px;
+        margin-top: 5px;
+    }
+    .video-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 24px;
+    }
+    .video-tag video{
+        width: 303px;
+    }
+    .blog-section{
+        padding: 0 20px;
+        
+    }
+    .blog-single-box{
+        margin-top: 16px;
+    }
+    .blog-section-bottom{
+        flex-direction: column;
+        gap: 16px;
     }
 }
 
