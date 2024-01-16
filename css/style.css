@@ -99,9 +99,11 @@ h5{
     color: var(--primary-color);
 }
 
-nav .hamburg-icon{
-    color: var(--heading-color);
+nav .hamburg-icon{ 
     display: none;
+}
+nav .hamburg-icon a i{
+    color: var(--heading-color);
 }
 
 /* Banner section start */
