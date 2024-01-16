@@ -74,6 +74,32 @@
     .populer-image img{
         width: 100%;
     }
+    .choose-section{
+        padding: 0 20px;
+    }
+    .choose-section-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-title p{
+        width: 309px;
+        font-size: 0.8rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-card .choose-section-images{
+        grid-template-areas: 
+        "image-1"
+        "image-2"
+        "image-3"
+        "image-4"
+        "image-5"
+        "image-6"
+        "image-7";
+        gap: 16px;
+    }
+    .choose-image .image-name{
+        font-size: 1.2rem;
+    }
     .why-choose-section{
         padding: 24px 20px;
     }
@@ -92,6 +118,36 @@
     }
     .why-choose-single{
         width: 335px;
+    }
+    .discount-section{
+        padding: 0 20px;
+    }
+    .discount-card-single, .discount-card-second{
+        padding: 187px 16px 16px 16px;
+    }
+    .blur-single-box{
+        width: 303px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .logo-span{
+        margin-top: 26px;
+        flex-direction: column;
+    }
+    .blur-single-box h5{
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .blur-single-box p{
+        width: 254px;
+        margin-bottom: 12px;
+    }
+    .blur-single-box .price-span{
+        margin-bottom: 16px;
+    }
+    .discount-btn{
+        width: 130px;
+        margin-bottom: 24px;
     }
     
 }
@@ -172,6 +228,32 @@
     .populer-image img{
         width: 100%;
     }
+    .choose-section{
+        padding: 0 20px;
+    }
+    .choose-section-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-title p{
+        width: 309px;
+        font-size: 0.8rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-card .choose-section-images{
+        grid-template-areas: 
+        "image-1"
+        "image-2"
+        "image-3"
+        "image-4"
+        "image-5"
+        "image-6"
+        "image-7";
+        gap: 16px;
+    }
+    .choose-image .image-name{
+        font-size: 1.2rem;
+    }
     .why-choose-section{
         padding: 24px 20px;
     }
@@ -190,6 +272,36 @@
     }
     .why-choose-single{
         width: 300px;
+    }
+    .discount-section{
+        padding: 0 20px;
+    }
+    .discount-card-single, .discount-card-second{
+        padding: 187px 16px 16px 16px;
+    }
+    .blur-single-box{
+        width: 303px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .logo-span{
+        margin-top: 26px;
+        flex-direction: column;
+    }
+    .blur-single-box h5{
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .blur-single-box p{
+        width: 254px;
+        margin-bottom: 12px;
+    }
+    .blur-single-box .price-span{
+        margin-bottom: 16px;
+    }
+    .discount-btn{
+        width: 130px;
+        margin-bottom: 24px;
     }
 }
 

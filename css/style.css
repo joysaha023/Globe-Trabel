@@ -255,14 +255,67 @@ input:focus, select:focus{
     width: 643px;
     font-weight: 400;
     margin-inline: auto;
+    margin-bottom: 48px;
 }
 
-.hide{
-    display: none;
+#image-1 {
+    grid-area: image-1;
 }
 
+#image-2 {
+    grid-area: image-2;
+}
 
+#image-3 {
+    grid-area: image-3;
+}
 
+#image-4 {
+    grid-area: image-4;
+}
+
+#image-5 {
+    grid-area: image-5;
+}
+
+#image-6 {
+    grid-area: image-6;
+}
+
+#image-7 {
+    grid-area: image-7;
+}
+
+.choose-section-card .choose-section-images{
+    display: grid;
+    grid-template-areas: 
+        "image-1  image-1  image-2 image-2"
+        "image-3  image-4  image-4  image-5"
+        "image-6  image-6  image-7  image-7";
+    gap: 24px;
+}
+.choose-section-card .choose-section-images img{
+    width: 100%;
+    height: 200px;
+}
+.choose-image{
+    position: relative;
+}
+.choose-image img{
+    transition: transform .5s;
+}
+.choose-image img:hover{
+    transform: scale(0.9);
+}
+.choose-image .image-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 1.7rem;
+    font-weight: 800;
+}
 /* why choose section start */
 .why-choose-section{
     padding: 100px 135px;
@@ -335,6 +388,19 @@ input:focus, select:focus{
 
 .discount-card-single{
     background-image: url(../assets/Images/group-39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px 56px 56px 450px;
+    border-radius: 16px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.discount-card-second{
+    background-image: url(../assets/Images/group-40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px 450px 56px 56px;
 }
 
 .blur-single-box{
@@ -343,8 +409,58 @@ input:focus, select:focus{
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
+    padding-left: 50px;
+    padding-right: 30px;
 }
+.logo-span p{
+    margin-right: 24px;
+} 
 
 .logo-span{
     margin-top: 52px;
+    display: flex;
+}
+
+.logo-span i{
+    color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.blur-single-box h5{
+    color: var(--heading-color);
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.blur-single-box p{
+    color: #5A5A5D;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.blur-single-box .price-span{
+    color: var(--primary-color);
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.discount-btn{
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 0;
+    margin-bottom: 50px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.discount-btn:hover{
+    transform: scale(1.2);
 }
