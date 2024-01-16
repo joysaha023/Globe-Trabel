@@ -29,7 +29,7 @@
         margin-bottom: 8px;
     }
     .banner-section-box p{
-        width: 304px;
+        width: 100%;
         font-size: 0.8rem;
     }
     .find-box{
@@ -82,7 +82,7 @@
         margin-bottom: 16px;
     }
     .choose-section-title p{
-        width: 309px;
+        width: 100%;
         font-size: 0.8rem;
         margin-bottom: 16px;
     }
@@ -108,7 +108,7 @@
         margin-bottom: 16px;
     }
     .why-choose-title p{
-        width: 309px;
+        width: 100%;
     }
     .why-choose-card{
         margin-top: 16px;
@@ -117,7 +117,7 @@
         margin-bottom: 16px;
     }
     .why-choose-single{
-        width: 335px;
+        width: 100%;
     }
     .discount-section{
         padding: 0 20px;
@@ -128,7 +128,7 @@
         margin-bottom: 16px;
     }
     .blur-single-box{
-        width: 303px;
+        width: 100%;
         padding-left: 24px;
         padding-right: 24px;
     }
@@ -141,7 +141,7 @@
         margin-bottom: 8px;
     }
     .blur-single-box p{
-        width: 254px;
+        /* width: 254px; */
         margin-bottom: 12px;
     }
     .blur-single-box .price-span{
@@ -164,7 +164,7 @@
         padding-bottom: 24px;
     }
     .video-tag video{
-        width: 303px;
+        width: 100%;
     }
     .blog-section{
         padding: 0 20px;
@@ -184,7 +184,9 @@
         flex-direction: column;
     }
     .newslatter-left{
-        padding: 0 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
     }
     .newslatter-left h5{
         margin-top: 24;
@@ -193,25 +195,43 @@
     }
     .hr-line-new{
         margin-top: 16px;
+        width: 100%;
     }
     .input-field{
-        width: 288px;
+        width: 100%;
     }
     .subscribe-btn{
-        width: 288px;
+        width: 100%;
         margin-bottom: 24px;
     }
     .newslatter-right img{
         width: 100%;
     }
     .token-box{
-        width: 214px;
+        width: 50%;
         position: absolute;
-        left: 132px;
-        bottom: 10px;
+        left: 177px;
+        bottom: -7px;
     }
     .token-box h4{
         font-size: 1.2rem;
+    }
+    .footer-logo {
+        padding-top: 32px;
+    }
+    .footer-box p{
+        width: 100%;
+    }
+    .icon-footer{
+        margin-top: 16px;
+        padding-bottom: 24px;
+    }
+    .footer-hr{
+        width: 100%;
+    }
+    .copyright-box{
+        margin-top: 24px;
+        padding-bottom: 30px;
     }
 }
 
@@ -395,6 +415,59 @@
     .blog-section-bottom{
         flex-direction: column;
         gap: 16px;
+    }
+    .newslatter-section{
+        padding: 24px 24px;
+    }
+    .newslatter-box{
+        flex-direction: column;
+    }
+    .newslatter-left{
+        padding: 0 20px;
+    }
+    .newslatter-left h5{
+        margin-top: 24;
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .hr-line-new{
+        margin-top: 16px;
+    }
+    .input-field{
+        width: 288px;
+    }
+    .subscribe-btn{
+        width: 288px;
+        margin-bottom: 24px;
+    }
+    .newslatter-right img{
+        width: 100%;
+    }
+    .token-box{
+        width: 214px;
+        position: absolute;
+        left: 132px;
+        bottom: 10px;
+    }
+    .token-box h4{
+        font-size: 1.2rem;
+    }
+    .footer-logo {
+        padding-top: 32px;
+    }
+    .footer-box p{
+        width: 287px;
+    }
+    .icon-footer{
+        margin-top: 16px;
+        padding-bottom: 24px;
+    }
+    .footer-hr{
+        width: 335px;
+    }
+    .copyright-box{
+        margin-top: 24px;
+        padding-bottom: 30px;
     }
 }
 
