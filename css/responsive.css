@@ -177,6 +177,42 @@
         flex-direction: column;
         gap: 16px;
     }
+    .newslatter-section{
+        padding: 24px 24px;
+    }
+    .newslatter-box{
+        flex-direction: column;
+    }
+    .newslatter-left{
+        padding: 0 20px;
+    }
+    .newslatter-left h5{
+        margin-top: 24;
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .hr-line-new{
+        margin-top: 16px;
+    }
+    .input-field{
+        width: 288px;
+    }
+    .subscribe-btn{
+        width: 288px;
+        margin-bottom: 24px;
+    }
+    .newslatter-right img{
+        width: 100%;
+    }
+    .token-box{
+        width: 214px;
+        position: absolute;
+        left: 132px;
+        bottom: 10px;
+    }
+    .token-box h4{
+        font-size: 1.2rem;
+    }
 }
 
 

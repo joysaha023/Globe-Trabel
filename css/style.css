@@ -527,9 +527,84 @@ input:focus, select:focus{
 
 /* Newsletter section start */
 .newslatter-section{
-
+    padding: 100px 135px;
+}
+.newslatter-box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.newslatter-left{
+    padding: 0 40px;
+    border-radius: 16px;
+    border: 1px solid var(--primary-color);
 }
 
-.newslatter-box{
+.newslatter-left h5{
+    color: var(--heading-color);
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.newslatter-left p{
+    color: #5A5A5D;
+    font-weight: 400;
+}
+
+.hr-line-new{
+    margin-top: 24px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.input-field {
+    width: 390px;
+    padding: 16px 0 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    border: 0;
+    margin-top: 24px;
     
+}
+
+.subscribe-btn{
+    display: block;
+    width: 390px;
+    padding: 14px 0;
+    background-color: var(--primary-color);
+    border: 0;
+    color: var(--white-color);
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.rotate-box{
+    transform: rotate(-20deg);
+    position: relative;
+    
+}
+.token-box{
+    width: 342px;
+    text-align: center;
+    border-radius: 16px;
+    background: var(--primary-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    bottom: -7px;
+    left: 355px;
+}
+
+.token-box span{
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+.token-box h4{
+    color: var(--white-color);
+    font-weight: 800;
 }
